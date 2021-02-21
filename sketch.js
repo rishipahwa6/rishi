@@ -62,6 +62,6 @@ function keyPressed() {
 		fairy.y=fairy.y+5;
 	 }
 	if(fairy.isTouching(star)){
-	star.velocityY=10;
+	star.y=fairy.y;
 	}
 }
